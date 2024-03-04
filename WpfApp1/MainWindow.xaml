@@ -9,7 +9,7 @@
     <Grid>
         <Label Content="Este iszunk" HorizontalAlignment="Left" Height="25" Margin="54,37,0,0" VerticalAlignment="Top" Width="70" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Background="#FF16D88D" FontFamily="Times New Roman"/>
         <Button Content="Szevasz!" HorizontalAlignment="Left" Margin="44,118,0,0" VerticalAlignment="Top" Height="20 " Width="80" FontFamily="Times New Roman"/>
-        <ListBox x:Name="lbx1" HorizontalAlignment="Left" Height="105" Margin="190,37,0,0" VerticalAlignment="Top" Width="95" FontFamily="Times New Roman" SelectionChanged="ListBox_SelectionChanged">
+        <ListBox x:Name="lbx1" HorizontalAlignment="Left" Height="105" Margin="190,37,0,0" VerticalAlignment="Top" Width="95" FontFamily="Times New Roman" >
             <ListBoxItem>Hétfő</ListBoxItem>
             <ListBoxItem>Kedd</ListBoxItem>
             <ListBoxItem>Szerda</ListBoxItem>
