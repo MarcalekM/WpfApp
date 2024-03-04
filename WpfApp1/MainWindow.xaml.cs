@@ -24,5 +24,10 @@ namespace WpfApp1
             lbx1.Items.Add("Szombat");
             lbx1.Items.Add("Vasárnap");
         }
+
+        private void btn1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("A hiba Te vagy", "Hello there", MessageBoxButton.YesNoCancel ,MessageBoxImage.Warning);
+        }
     }
 }
